@@ -59,12 +59,15 @@ Observation: Proper pore filling simplifies finish repair compared to surface pa
 
 ---
 
-## 2. Color Theory
+## 2. Light Theory
 
 ### 2.1 The Fundamental Rule
 - White light contains multiple wavelengths  
 - Materials absorb some wavelengths and return others  
-- The color observed is the light that is not absorbed  
+- The color observed is the light that is not absorbed 
+- High CRI bulb, normal bulb and warm bulb demo
+  - Talk about accuracy of light in touch ups
+
 
 This produces three perceptual variables:
 
@@ -120,16 +123,17 @@ Observe:
 
 ---
 
-## 3. Light in a Guitar Finish — The Layered Optical System (Wood → Air)
-
-### 3.1 How Light Behaves
+### 2.3 How Light Porperties Changes Color Perception 
 - Specular reflection  
 - Diffuse reflection  
-- Refraction and Refraction Index (mismatch wood demo) 
+- Refraction and Refraction Index 
+  - (mismatch wood demo) 
 - Absorption 
 - Reflection - Color   
 - Scatter 
 - Diffusion
+
+## 3. Light in a Guitar Finish — The Layered Optical System (Wood → Air)
 
 ### 3.2 Wood — The Optical Substrate
 - Fiber orientation (anisotropy)  
