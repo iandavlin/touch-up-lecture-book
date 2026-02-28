@@ -151,7 +151,9 @@ Observe:
 - Index change when pores are filled  
 - Pigmented filler vs Dye Filler
 - Temporal Considrations
-
+ - Binder Yellows 
+ - pores duller 
+ - 
 ### 3.4 Sealer Layer
 - Substrate isolation  
 - Refractive transition between wood and film how - RI affects look
@@ -188,5 +190,10 @@ Observe:
 - Micro-scratches and hardness  
 - Contrast and perceived depth  
 
-
+### 3.8 Finish Schedule Deduction 
+- Examine finish chips if available
+ - color in the chip will indiacate toner coat
+- Examing exposed substrate if available 
+  - dye in wood may be apparant   QQ  1` b vgftr54e3
+  - pore filler 
 ## 4. Hands-On: Test Boards
