@@ -5,7 +5,7 @@
 ## 1. Philosophy of Touch-Up
 
 ### 1.1 When Not to Touch Up
-- [Market value risk](#img-market-value-risk) <!-- img: images/reference/market-value-risk.png | mode: reference -->
+- [Market value risk](#img-market-value-risk)
 - Reputation risk  
 - Customer expectations misaligned with realistic outcomes  
 - Incomplete knowledge of the original finish schedule  

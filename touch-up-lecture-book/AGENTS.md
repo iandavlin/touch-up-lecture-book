@@ -1,27 +1,48 @@
-When a message matches:
+# Attach image to bullet (one-liner)
 
+Input format:
 <bullet text> | <image path>
 
-Automatically:
+Defaults:
+- Target markdown: notes/outline.md
+- Image destination folder: images/
+- Action: copy (never move)
+- Mode tag: reference (metadata only)
 
-1) Target file: presentation.md
-2) Mode: reference
-3) Copy image into images/reference/
-4) Slug filename from bullet text (lowercase, hyphenated)
-5) Replace exact bullet:
+Procedure:
+1) Ensure images/ exists.
+2) Copy the image into images/ using a safe filename:
+   - lowercase
+   - hyphen slug based on bullet text
+   - keep extension
+3) In notes/outline.md find the bullet line whose visible text equals <bullet text>.
+   - If multiple matches, ask which section heading it’s under.
 
-- <bullet text>
+4) Link handling:
+   - If the bullet text is NOT already a markdown link, convert it to:
+     - [<bullet text>](#img-<slug>)
+   - If the bullet text IS already a markdown link:
+     - Ask ONE question: "Overwrite link or append image metadata only?"
+     - Overwrite = replace existing link target with #img-<slug>
+     - Append-only = leave the existing link as-is and ONLY append/refresh the img metadata comment.
 
-With:
+5) Append/refresh metadata comment at end of the bullet:
+   <!-- img: ../images/<filename> | mode: reference -->
 
-- [<bullet text>](#img-<slug>) <!-- img: images/reference/<slug>.<ext> | mode: reference -->
+   NOTE: The path in the comment must be correct relative to notes/outline.md:
+   use ../images/<filename>
 
-6) Append if missing:
+6) Ensure an anchor + image block exists (GitHub-compatible):
+   Append at end of notes/outline.md if missing:
 
----
-<!-- _id: img-<slug> -->
-![contain](images/reference/<slug>.<ext>)
+   ---
+   <a id="img-<slug>"></a>
 
-7) Do not change anything else.
-8) If bullet is ambiguous, ask which section.
-Return only: Attached <slug>
+   ![contain](../images/<filename>)
+
+7) Do not change any other content.
+
+Return only:
+- Attached <slug>
+- dest: images/<filename>
+- md: notes/outline.md
