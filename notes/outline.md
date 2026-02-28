@@ -5,7 +5,7 @@
 ## 1. Philosophy of Touch-Up
 
 ### 1.1 When Not to Touch Up
-- Market value risk  
+- [Market value risk](#img-market-value-risk) <!-- img: images/reference/market-value-risk.png | mode: reference -->
 - Reputation risk  
 - Customer expectations misaligned with realistic outcomes  
 - Incomplete knowledge of the original finish schedule  
@@ -197,3 +197,7 @@ Observe:
   - dye in wood may be apparant   QQ  1` b vgftr54e3
   - pore filler 
 ## 4. Hands-On: Test Boards
+
+---
+<!-- _id: img-market-value-risk -->
+![contain](images/reference/market-value-risk.png)
